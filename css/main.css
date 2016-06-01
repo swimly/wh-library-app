@@ -1,0 +1,10 @@
+/* 本例子css -------------------------------------- */
+.tabBox{overflow:hidden;}
+.tabBox .hd{ height:40px; line-height:40px;font-size:16px; background:#fff; border-bottom:1px solid #ccc; position:relative;overflow-x:auto;overflow-y:hidden;}
+.tabBox .hd ul{ position:absolute; height:41px; top:0; overflow:hidden;  }
+.tabBox .hd ul li{ float:left; padding:0 10px; color:#666;  }
+.tabBox .hd ul .on{ border-bottom:1px solid #2C8EB5;color:#2C8EB5;   }
+.tabBox .hd ul .on a{ display:block; /* 修复Android 4.0.x 默认浏览器当前样色无效果bug */  }
+.tabBox .bd ul{ padding:10px 0 10px 10px;  }
+.tabBox .bd li{ height:33px; line-height:33px;   }
+.tabBox .bd li a{ -webkit-tap-highlight-color:rgba(0,0,0,0); }  /* 去掉链接触摸高亮 */
