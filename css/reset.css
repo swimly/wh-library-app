@@ -16,19 +16,19 @@ fieldset,img{border:0}
 table{border-collapse:collapse;border-spacing:0}
 hr{border:0;height:1px}
 html{font-size:calc(100vw/37.5);}/*iphone 6*/
-@media all and (max-width: 320px){html{font-size:calc(100vw/32);}}/*iphone4\5*/
-@media all and (max-width: 360px){html{font-size:calc(100vw/36);}}/*Galaxy s5*/
-@media all and (max-width: 411px){html{font-size:calc(100vw/41.1);}}/*Galaxy s5*/
-@media all and (max-width: 414px){html{font-size:calc(100vw/41.4);}}/*iphone 6 plus*/
-@media all and (max-width: 435px){html{font-size:calc(100vw/43.5);}}/*Nexus 6p*/
-@media all and (max-width: 480px){html{font-size:calc(100vw/48);}}/*Nexus 6p*/
-@media all and (max-width: 568px){html{font-size:calc(100vw/56.8);}}/*Nexus 6p*/
-@media all and (max-width: 640px){html{font-size:calc(100vw/64);}}/*Nexus 6p*/
-@media all and (max-width: 667px){html{font-size:calc(100vw/66.7);}}/*Nexus 6p*/
-@media all and (max-width: 731px){html{font-size:calc(100vw/73.1);}}/*Nexus 6p*/
-@media all and (max-width: 736px){html{font-size:calc(100vw/73.6);}}/*Nexus 6p*/
-@media all and (max-width: 768px){html{font-size:calc(100vw/76.8);}}/*Nexus 6p*/
-@media all and (max-width: 773px){html{font-size:calc(100vw/77.3);}}/*Nexus 6p*/
-@media all and (max-width: 1024px){html{font-size:calc(100vw/1024);}}/*Nexus 6p*/
+/*@media all and (max-width: 320px){html{font-size:calc(100vw/32);}}!*iphone4\5*!
+@media all and (max-width: 360px){html{font-size:calc(100vw/36);}}!*Galaxy s5*!
+@media all and (max-width: 411px){html{font-size:calc(100vw/41.1);}}!*Galaxy s5*!
+@media all and (max-width: 414px){html{font-size:calc(100vw/41.4);}}!*iphone 6 plus*!
+@media all and (max-width: 435px){html{font-size:calc(100vw/43.5);}}!*Nexus 6p*!
+@media all and (max-width: 480px){html{font-size:calc(100vw/48);}}!*Nexus 6p*!
+@media all and (max-width: 568px){html{font-size:calc(100vw/56.8);}}!*Nexus 6p*!
+@media all and (max-width: 640px){html{font-size:calc(100vw/64);}}!*Nexus 6p*!
+@media all and (max-width: 667px){html{font-size:calc(100vw/66.7);}}!*Nexus 6p*!
+@media all and (max-width: 731px){html{font-size:calc(100vw/73.1);}}!*Nexus 6p*!
+@media all and (max-width: 736px){html{font-size:calc(100vw/73.6);}}!*Nexus 6p*!
+@media all and (max-width: 768px){html{font-size:calc(100vw/76.8);}}!*Nexus 6p*!
+@media all and (max-width: 773px){html{font-size:calc(100vw/77.3);}}!*Nexus 6p*!
+@media all and (max-width: 1024px){html{font-size:calc(100vw/1024);}}!*Nexus 6p*!*/
 html,body{height:100%;}
-*{-ms-word-break:break-all;word-break:break-all;-ms-word-wrap:break-word;word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+*{-ms-word-break:break-all;word-break:break-all;-ms-word-wrap:break-word;word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0);box-sizing: border-box;}
