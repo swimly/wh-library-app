@@ -6,7 +6,17 @@
     center center;}
 .page-view .page-head .menu:active{opacity:0.9;background-color:rgba(255,255,255,0.1);}
 .page-content{height:100%;overflow:auto;}
-.page-aside{width:70%;height:100%;position:absolute;top:0;left:0;background:#009AE9;z-index:1;}
+.page-aside{width:70%;height:100%;position:absolute;top:0;left:0;background:#009AE9;z-index:1;padding-top:30vw;padding-bottom:6rem;}
+.page-aside .aside-head{width:100%;background:#fff;height:30vw;margin-top:-30vw;}
+.page-aside .aside-head img{width:100%;vertical-align: top;}
+.aside-content{height:100%;width:100%;overflow:auto;padding:1rem 0;}
+.aside-list li a{display:table;width:100%;padding:1rem;}
+.aside-list li a span{vertical-align: middle;display:table-cell;font-size:1.4rem;color:#fff;}
+.aside-list li a span:first-child{width:30%;padding-left:2rem;}
+.aside-footer{height:6rem;width:100%;display:table;}
+.aside-footer .aside-weather{display:table-cell;text-align:right;padding-right:1rem;}
+.aside-weather h2{font-size:1.6rem;color:#fff;width:5rem;display:inline-block;text-align:left;margin-bottom:0.5rem;}
+.aside-weather p{font-size:1.4rem;color:#fff;}
 /* 本例子css -------------------------------------- */
 .tabBox{height:100%;}
 .tabBox .hd{ height:4.2rem;font-size:1.6rem; background:#fff; border-bottom:1px solid #ccc; position:relative;overflow-x:auto;overflow-y:hidden;}
