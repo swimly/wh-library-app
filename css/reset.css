@@ -15,7 +15,7 @@ legend{color:#000}
 fieldset,img{border:0}
 table{border-collapse:collapse;border-spacing:0}
 hr{border:0;height:1px}
-html{font-size:calc(100vw/37.5);}/*iphone 6*/
+html{font-size:62.5%;}/*iphone 6*/
 /*@media all and (max-width: 320px){html{font-size:calc(100vw/32);}}!*iphone4\5*!
 @media all and (max-width: 360px){html{font-size:calc(100vw/36);}}!*Galaxy s5*!
 @media all and (max-width: 411px){html{font-size:calc(100vw/41.1);}}!*Galaxy s5*!
