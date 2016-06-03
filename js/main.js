@@ -12,6 +12,24 @@ $(function(){
         autoPage:true, //自动分页
         switchLoad:"_src" //切换加载，真实图片路径为"_src"
     });
+    TouchSlide({
+        slideCell:"#wel",
+        titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell:".bd ul",
+        effect:"left",
+        autoPlay:false,//自动播放
+        autoPage:true, //自动分页
+        switchLoad:"_src" //切换加载，真实图片路径为"_src"
+    });
+    TouchSlide({
+        slideCell:"#index",
+        titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell:".bd ul",
+        effect:"left",
+        autoPlay:false,//自动播放
+        autoPage:true, //自动分页
+        switchLoad:"_src" //切换加载，真实图片路径为"_src"
+    });
     function init(){
         var hd=$(".tabBox .hd").find("ul");
         var wid=0;
@@ -37,7 +55,9 @@ $(function(){
             }
         });
     }
-    touch.on('.page-content', 'touchstart', function(ev){
+    var target = document.getElementById("page");
+    var width=$(window).width();
+    /*touch.on('.page-content', 'touchstart', function(ev){
         ev.preventDefault();
     });
 
@@ -66,7 +86,7 @@ $(function(){
             target.style.webkitTransform = "translate3d("+(width*0.7)+"px"+",0,0)";
             btn.addClass("on")
         }
-    });
+    });*/
     $(".menu").bind("click",function(){
         if($(this).hasClass("on")){
             target.style.webkitTransform = "translate3d(0,0,0)";

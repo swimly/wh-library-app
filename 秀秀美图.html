@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta charset="UTF-8">
+    <title>秀秀美图</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/lightGallery.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<div class="page-aside">
+    <div class="aside-head">
+        <img src="img/aside-head.png"/>
+    </div>
+    <div class="aside-content">
+        <ul class="aside-list">
+            <li><a href="图书馆简介.html"><span><img align="absMiddle" src="img/aside1.png"/></span><span>图书馆简介</span></a></li>
+            <li><a href="入馆须知.html"><span><img align="absMiddle" src="img/aside2.png"/></span><span>入馆须知</span></a></li>
+            <li><a href="图书馆攻略.html"><span><img align="absMiddle" src="img/aside3.png"/></span><span>图书馆攻略</span></a></li>
+            <li><a href="3D图书馆.html"><span><img align="absMiddle" src="img/aside4.png"/></span><span>3D图书馆</span></a></li>
+            <li><a href="图书借还.html"><span><img align="absMiddle" src="img/aside5.png"/></span><span>图书借还</span></a></li>
+            <li><a href="电子资源.html"><span><img align="absMiddle" src="img/aside6.png"/></span><span>电子资源</span></a></li>
+            <li><a href="精彩活动.html"><span><img align="absMiddle" src="img/aside7.png"/></span><span>精彩活动</span></a></li>
+            <li><a class="active" href="秀秀美图.html"><span><img align="absMiddle" src="img/aside8.png"/></span><span>秀秀美图</span></a></li>
+            <li><a href="自助服务.html"><span><img align="absMiddle" src="img/aside9.png"/></span><span>自助服务</span></a></li>
+            <li><a href="闯关服务.html"><span><img align="absMiddle" src="img/aside10.png"/></span><span>闯关服务</span></a></li>
+        </ul>
+    </div>
+    <div class="aside-footer">
+        <div class="aside-weather">
+            <h2>武汉</h2>
+            <p><img align="absMiddle" src="img/weather.png"/>17-25℃</p>
+        </div>
+    </div>
+</div>
+<div class="page-view has-head" id="page">
+    <div class="page-head">
+        <a class="menu" href="javascript:;"></a>
+        <h1 class="title">秀秀美图</h1>
+    </div>
+    <div class="page-content">
+        <div id="leftTabBox" class="tabBox">
+            <div class="hd">
+                <ul>
+                    <li><a>图书馆美景</a></li>
+                    <li><a>艺术馆</a></li>
+                    <li><a>校园景色</a></li>
+                </ul>
+            </div>
+            <div class="bd">
+                <div class="item">
+                    <ul class="gallery">
+                        <li data-src="img/img1.jpg"><a href="#"><img src="img/thumb1.jpg" /></a></li>
+                        <li data-src="img/img2.jpg"><a href="#"><img src="img/thumb2.jpg" /></a></li>
+                        <li data-src="img/img3.jpg"><a href="#"><img src="img/thumb3.jpg" /></a></li>
+                        <li data-src="img/img4.jpg"><a href="#"><img src="img/thumb4.jpg" /></a></li>
+                        <li data-src="img/img1.jpg"><a href="#"><img src="img/thumb1.jpg" /></a></li>
+                        <li data-src="img/img2.jpg"><a href="#"><img src="img/thumb2.jpg" /></a></li>
+                        <li data-src="img/img3.jpg"><a href="#"><img src="img/thumb3.jpg" /></a></li>
+                        <li data-src="img/img4.jpg"><a href="#"><img src="img/thumb4.jpg" /></a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul class="gallery">
+                        <li data-src="img/img1.jpg"><a href="#"><img src="img/thumb1.jpg" /></a></li>
+                        <li data-src="img/img2.jpg"><a href="#"><img src="img/thumb2.jpg" /></a></li>
+                        <li data-src="img/img3.jpg"><a href="#"><img src="img/thumb3.jpg" /></a></li>
+                        <li data-src="img/img4.jpg"><a href="#"><img src="img/thumb4.jpg" /></a></li>
+                        <li data-src="img/img1.jpg"><a href="#"><img src="img/thumb1.jpg" /></a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul class="gallery">
+                        <li data-src="img/img1.jpg"><a href="#"><img src="img/thumb1.jpg" /></a></li>
+                        <li data-src="img/img2.jpg"><a href="#"><img src="img/thumb2.jpg" /></a></li>
+                        <li data-src="img/img3.jpg"><a href="#"><img src="img/thumb3.jpg" /></a></li>
+                        <li data-src="img/img4.jpg"><a href="#"><img src="img/thumb4.jpg" /></a></li>
+                        <li data-src="img/img1.jpg"><a href="#"><img src="img/thumb1.jpg" /></a></li>
+                        <li data-src="img/img2.jpg"><a href="#"><img src="img/thumb2.jpg" /></a></li>
+                        <li data-src="img/img3.jpg"><a href="#"><img src="img/thumb3.jpg" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/touch-0.2.14.min.js"></script>
+<script src="js/TouchSlide.1.1.js"></script>
+<script src="js/lightGallery.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(".gallery").lightGallery({
+        loop:true,
+        auto:false,
+        pause:4000
+    });
+</script>
+</body>
+</html>
