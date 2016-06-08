@@ -96,4 +96,12 @@ $(function(){
             $(this).addClass("on");
         }
     })
+    $(".home-grid").find("td").click(function(){
+        var link=$(this).attr("link");
+        if(link){
+            location.href=$(this).attr("link")
+        }else{
+            /*alert("模块正在开发中……")*/
+        }
+    })
 })
