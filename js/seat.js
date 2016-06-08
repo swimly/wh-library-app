@@ -19,10 +19,9 @@ $(function(){
 	var target = document.getElementById("seat");
 	var dx, dy;
 
-	touch.on('#seat', 'drag', function(ev){
+	/*touch.on('#seat', 'drag', function(ev){
 		dx = dx || 0;
 		dy = dy || 0;
-		/*console.log("当前x值为:" + dx + ", 当前y值为:" + dy +".");*/
 		var offx = dx + ev.x + "px";
 		var offy = dy + ev.y + "px";
 		target.style.webkitTransform = "translate3d(" + offx + "," + offy + ",0)";
@@ -38,7 +37,7 @@ $(function(){
 	touch.on('#seat', 'dragend', function(ev){
 		dx += ev.x;
 		dy += ev.y;
-	});
+	});*/
 	
 	var initialScale = 1;
 	var currentScale;
