@@ -55,7 +55,7 @@
 .avastor:hover{height:auto;}
 .avastor:hover dt i{transform:rotateX(180deg)}
 .c-p{color:#FF584C !important;}
-.fs-18{font-size:1.8rem;}
+.fs-18{font-size:1.8rem !important;}
 .pr-2{padding-right:2rem;}
 .t-c{text-align:center;}
 .info-table{width:100%;}
@@ -137,3 +137,36 @@
 .footer-link td{text-align:center;}
 .footer-link td a{display:inline-block;height:2.4rem;line-height:2.4rem;padding:0 2rem;border-radius:1.2rem;font-size:1.4rem;color:#fff;}
 .footer-link td a:active{opacity:0.9;}
+/*预约座位*/
+.seat-head{height:25%;}
+.seat-content{height:65%;}
+.seat-footer{height:10%;padding-top:1rem;}
+.row{display:table;width:100%;}
+.col{display:table-cell;}
+.col-50{width:50%;}
+.v-m{vertical-align:middle;}
+.v-t{vertical-align: top;}
+.seat-head img{width:2rem;margin-right:0.5rem;vertical-align:middle;}
+.plr-1{padding-left:1rem;padding-right:1rem;}
+.c-666{color:#666;}
+.fs-16{font-size:1.6rem;}
+.conner-line{border:1px solid #359DD9;border-radius:1rem;height:4rem;line-height:4rem;display:inline-block;width:100%;}
+.fl{float:left;}
+.fr{float:right;}
+.seat-wrap{float:left;}
+.seat-wrap ul{float:left;}
+.seat-wrap ul li{display:block;width:4rem;height:4rem;background:url(../img/seat1.png) no-repeat center center;}
+.seat-wrap ul li.boy-full{background:url(../img/se6.png) no-repeat center center;}
+.seat-wrap ul li.boy-half{background:url(../img/se7.png) no-repeat center center;}
+.seat-wrap ul li.boy-full-hold{background:url(../img/se8.png) no-repeat center center;}
+.seat-wrap ul li.boy-half-hold{background:url(../img/se1.png) no-repeat center center;}
+.seat-wrap ul li.girl-full{background:url(../img/se2.png) no-repeat center center;}
+.seat-wrap ul li.girl-half{background:url(../img/se3.png) no-repeat center center;}
+.seat-wrap ul li.girl-full-hold{background:url(../img/se4.png) no-repeat center center;}
+.seat-wrap ul li.girl-half-hold{background:url(../img/se5.png) no-repeat center center;}
+.page-content.seat{overflow:hidden;}
+.seat-content{overflow:hidden;}
+.seat-thumb{border:1px solid #898989;overflow:hidden;zoom:1;padding:0.2rem 0.3rem 0.3rem 0.2rem;display:inline-block;margin-top:1rem;float:right;position:relative;}
+.seat-thumb ul{float:left;margin-left:0.1rem;}
+.seat-thumb ul li{height:4px;width:4px;border:1px solid #666;margin-top:0.1rem;}
+.seat-view{border:1px solid #C2104C;position:absolute;z-index:10;}
