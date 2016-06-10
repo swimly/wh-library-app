@@ -155,18 +155,20 @@
 .fr{float:right;}
 .seat-wrap{float:left;}
 .seat-wrap ul{float:left;}
-.seat-wrap ul li{display:block;width:4rem;height:4rem;background:url(../img/seat1.png) no-repeat center center;}
-.seat-wrap ul li.boy-full{background:url(../img/se6.png) no-repeat center center;}
-.seat-wrap ul li.boy-half{background:url(../img/se7.png) no-repeat center center;}
-.seat-wrap ul li.boy-full-hold{background:url(../img/se8.png) no-repeat center center;}
-.seat-wrap ul li.boy-half-hold{background:url(../img/se1.png) no-repeat center center;}
-.seat-wrap ul li.girl-full{background:url(../img/se2.png) no-repeat center center;}
-.seat-wrap ul li.girl-half{background:url(../img/se3.png) no-repeat center center;}
-.seat-wrap ul li.girl-full-hold{background:url(../img/se4.png) no-repeat center center;}
-.seat-wrap ul li.girl-half-hold{background:url(../img/se5.png) no-repeat center center;}
-.page-content.seat{overflow:hidden;}
+.seat-wrap ul li{display:block;width:4rem;height:4rem;background:url(../img/seat1.png) no-repeat center bottom;}
+.seat-wrap ul li.boy-full{background:url(../img/se6.png) no-repeat center bottom;}
+.seat-wrap ul li.boy-half{background:url(../img/se7.png) no-repeat center bottom;}
+.seat-wrap ul li.boy-full-hold{background:url(../img/se8.png) no-repeat center bottom;}
+.seat-wrap ul li.boy-half-hold{background:url(../img/se1.png) no-repeat center bottom;}
+.seat-wrap ul li.girl-full{background:url(../img/se2.png) no-repeat center bottom;}
+.seat-wrap ul li.girl-half{background:url(../img/se3.png) no-repeat center bottom;}
+.seat-wrap ul li.girl-full-hold{background:url(../img/se4.png) no-repeat center bottom;}
+.seat-wrap ul li.girl-half-hold{background:url(../img/se5.png) no-repeat center bottom;}
+.seat-wrap ul li.active{background:url(../img/seat4.png) no-repeat center bottom;}
 .seat-content{overflow:hidden;}
 .seat-thumb{border:1px solid #898989;overflow:hidden;zoom:1;padding:0.2rem 0.3rem 0.3rem 0.2rem;display:inline-block;margin-top:1rem;float:right;position:relative;}
 .seat-thumb ul{float:left;margin-left:0.1rem;}
 .seat-thumb ul li{height:4px;width:4px;border:1px solid #666;margin-top:0.1rem;}
 .seat-view{border:1px solid #C2104C;position:absolute;z-index:10;}
+.seat-thumb ul li.boy-full,.seat-thumb ul li.boy-half,.seat-thumb ul li.boy-full-hold,.seat-thumb ul li.boy-half-hold,.seat-thumb ul li.girl-full,.seat-thumb ul li.girl-half,.seat-thumb ul li.girl-full-hold,.seat-thumb ul li.girl-half-hold{border-color:#009AE9;}
+.page-content.seat{overflow:hidden;}
