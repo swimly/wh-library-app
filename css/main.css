@@ -122,18 +122,20 @@
 .sky{background:url("../img/jiyu.png") no-repeat center bottom #448EDB;background-size:contain;}
 .c-fff{color:#fff;}
 .t-r{text-align:right;}
-#index{height:25vh;}
 #index .tempWrap,#index .tempWrap ul,#index .tempWrap ul li,#index .tempWrap ul li a img{height:100%;}
 #index .tempWrap ul li{display:inline-block;float:left;}
 #index .tempWrap ul li a{display:block;height:100%;}
-.home-grid{width:100%;height:65vh;}
-.home-grid td{height:25%;width:25%;text-align:center;border:1px solid rgba(255,255,255,0.6);}
+.home-grid{width:100%;height:100%;overflow: auto;}
+.home-grid table{height:100%;width:100%; table-layout: fixed;}
+.home-grid td{height:25%;width:25%;text-align:center;border:1px solid rgba(255,255,255,0.6);overflow:hidden;}
+.home-grid td img{transform: scale(0.8);}
+.home-grid td .full{transform: scale(1);}
 .home-grid h1{display:inline-block;}
 .home-grid td .full{width:100%;height:100%;}
-.home-grid td h1{font-size:1.6rem;color:#fff;margin:0.5rem;}
+.home-grid td h1{font-size:1.4rem;color:#fff;margin:0.5rem;}
 .home-grid td p{font-size:1.4rem;color:#fff;line-height:1.6rem;text-align:left;padding:0 0.5rem;}
 .home-grid td:active{opacity:0.9;}
-.footer-link{height:10vh;width:100%;}
+.footer-link{height:60px;width:100%;}
 .footer-link td{text-align:center;}
 .footer-link td a{display:inline-block;height:2.4rem;line-height:2.4rem;padding:0 2rem;border-radius:1.2rem;font-size:1.4rem;color:#fff;}
 .footer-link td a:active{opacity:0.9;}
@@ -172,3 +174,7 @@
 .seat-view{border:1px solid #C2104C;position:absolute;z-index:10;}
 .seat-thumb ul li.boy-full,.seat-thumb ul li.boy-half,.seat-thumb ul li.boy-full-hold,.seat-thumb ul li.boy-half-hold,.seat-thumb ul li.girl-full,.seat-thumb ul li.girl-half,.seat-thumb ul li.girl-full-hold,.seat-thumb ul li.girl-half-hold{border-color:#009AE9;}
 .page-content.seat{overflow:hidden;}
+.musicBtn{display:inline-block;width:3rem;height:3rem !important;background:url("../img/index-icon12.png") no-repeat center center;background-size:3rem;}
+.musicBtn.active{background:url("../img/index-icon14.png") no-repeat center center;background-size:3rem;}
+.page-view.page-index{padding:140px 0 60px 0;overflow:hidden;}
+.page-view.page-index .focus{height:140px;margin-top:-140px;}

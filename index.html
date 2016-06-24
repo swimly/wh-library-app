@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
-<div class="page-view">
+<div class="page-view page-index">
     <div id="index" class="focus">
         <div class="hd">
             <ul></ul>
@@ -21,7 +21,8 @@
             </ul>
         </div>
     </div>
-    <table class="home-grid">
+    <div class="home-grid">
+    	<table>
         <tr>
             <td rowspan="2" class="bg2" width="25%" link="图书馆攻略.html">
                 <img src="img/index-icon1.png"/>
@@ -30,16 +31,13 @@
             <td rowspan="2" class="bg1" width="25%" link="图书馆简介.html">
                 <img src="img/index-icon2.png"/>
                 <h1>图书馆简介</h1>
-                <p>CASHL成员馆</p>
-                <p>研究级文献收藏单位</p>
-                <p>优秀级图书馆</p>
             </td>
             <td class="bg3" width="25%" link="入馆须知.html">
                 <img src="img/index-icon3.png"/>
                 <h1>入馆须知</h1>
             </td>
-            <td width="25%">
-                <img class="full" src="img/index-img5.png"/>
+            <td width="25%" style="background:url(img/index-img5.png) no-repeat center center;background:contain;">
+                
             </td>
         </tr>
         <tr>
@@ -53,15 +51,15 @@
             </td>
         </tr>
         <tr>
-            <td>
-                <img class="full" src="img/index-img6.png"/>
+            <td style="background:url(img/index-img6.png) no-repeat center center;background:contain;">
+               
             </td>
             <td class="bg6" link="电子资源.html">
                 <img src="img/index-icon6.png"/>
                 <h1>电子资源</h1>
             </td>
-            <td>
-                <img class="full" src="img/index-img7.png"/>
+            <td style="background:url(img/index-img7.png) no-repeat center center;background:contain;">
+                
             </td>
             <td class="bg3" link="精彩活动.html">
                 <img src="img/index-icon7.png"/>
@@ -86,20 +84,21 @@
             </td>
         </tr>
     </table>
+    </div>
     <table class="footer-link">
         <tr>
-            <td>
-                <a class="bg1" href="#">东院分馆</a>
+            <td width="75%">
+                <p style="font-size:1.2rem;color:#666;text-align: left;line-height:1.6rem;padding-left:2rem;">
+                	Copyright 2009-2018 www.yjsexam.com<br> All Rights Reserved
+                </p>
             </td>
             <td>
-                <a class="bg5" href="#">西院分馆</a>
-            </td>
-            <td>
-                <a class="bg4" href="#">余家头分馆</a>
+                <a class="musicBtn" href="#"> </a>
             </td>
         </tr>
     </table>
 </div>
+<audio id="music" src="audio/bg.mp3"></audio>
 <script src="js/zepto_1.1.3.js"></script>
 <script src="js/TouchSlide.1.1.js"></script>
 <script src="js/main.js"></script>

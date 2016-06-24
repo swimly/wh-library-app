@@ -2,6 +2,25 @@
  * Created by 97974 on 2016/6/1.
  */
 $(function(){
+	/*控制音乐播放*/
+	var obj=document.getElementById("music")
+	if(obj){
+	    $(".musicBtn").click(function(e){
+	        e.stopPropagation();
+	        if(obj.paused){
+	            obj.play();
+	            $(this).addClass("active")
+	        }else{
+	            obj.pause();
+	            $(this).removeClass("active");
+	        }
+	    })
+	    var musicTimer=setInterval(function(){
+	        if(obj.ended){
+	            $(".musicBtn").removeClass("active");
+	        }
+	    },10)
+	}
     init();
     TouchSlide({
         slideCell:"#focus",
